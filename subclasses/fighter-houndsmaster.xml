@@ -50,7 +50,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<select type="Companion" name="Guard Hound" supports="Guard Hound" default="ID_5ECC_COMPANION_HOUNDSMASTER_GUARD_HOUND" requirements="!ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_LOYAL_PARTNER"/>
+			<select type="Companion" name="Guard Hound" supports="Guard Hound" default="ID_5ECC_COMPANION_HOUNDSMASTER_GUARD_HOUND" />
 		</rules>
 	</element>
 	<element name="Instinctive Bond" type="Archetype Feature" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_INSTINCTIVE_BOND">
