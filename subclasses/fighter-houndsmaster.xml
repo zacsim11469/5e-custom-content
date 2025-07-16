@@ -111,7 +111,6 @@
 	
 	<element name="Guard Hound" type="Companion" source="zacsim11469's Mind" id="ID_5ECC_COMPANION_HOUNDSMASTER_GUARD_HOUND">
 		<supports>Guard Hound</supports>
-		<requirements>!ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_LOYAL_PARTNER</requirements>
 		<setters>
 			<set name="size">Medium</set>
 			<set name="type">Beast</set>
