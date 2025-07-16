@@ -37,9 +37,8 @@
 			<p class="indent">Shares your alignment</p>
 			<p class="indent">Is immune to charm effects from creatures other than you</p>
 			<p class="indent">IS able to obey simple commands (attack, guard, retrieve, pull, etc.)</p>
-			<p class="indent">The powers below use your Spectral Energy Dice.</p>
-			<p class="indent">In combat, the hound shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the hound can take any action of its choice, not just Dodge.</p>
-			<p class="indent">In the event that your hound is lost, a new hound may be obtained with 1 week of downtime and an expense of 25gp. This might be from a specialized city guard kennel, a ritualistic bonding with a wolf in nature, or another method determined appropriate for your character. The time and gold are for the specialized training and bond you'll need to establish with your hound.</p>
+			<p>In combat, the hound shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the hound can take any action of its choice, not just Dodge.</p>
+			<p>In the event that your hound is lost, a new hound may be obtained with 1 week of downtime and an expense of 25gp. This might be from a specialized city guard kennel, a ritualistic bonding with a wolf in nature, or another method determined appropriate for your character. The time and gold are for the specialized training and bond you'll need to establish with your hound.</p>
 			<div class="reference">
 				<div element="ID_5ECC_INFORMATION_GUARD_HOUND" />
 			</div>
@@ -67,7 +66,7 @@
 	<element name="Guardian's Wrath" type="Archetype Feature" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_GUARDIANS_WRATH">
 		<description>
 			<p>Starting at 7th level, when a creature you can see within 30 feet is reduced to 0 hit points by a hostile creature, you can enter a state of focused wrath. This state lasts for a number of rounds equal to your proficiency bonus. While it lasts:</p>
-			<p class="indent">You treat the triggering creature as if affected by the Hunter’s Mark spell (no concentration required).</p>
+			<p class="indent">You treat the triggering creature as if affected by the <em>Hunter’s Mark</em> spell (no concentration required).</p>
 			<p class="indent">You have advantage on attack rolls against the triggering creature.</p>
 			<p>You can enter this state once per combat. You regain the ability to do so when you finish a short or long rest.</p>
 		</description>
@@ -100,10 +99,10 @@
 	</element>
 	<element name="Packmaster" type="Archetype Feature" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_PACKMASTER">
 		<description>
-			<p>At 18th level, you are the undisputed alpha of your pack. You may control up to three Guard Hounds at a time. Each hound can be set to Steel Fang or Bulwark mode independently.</p>
+			<p>At 18th level, you are the undisputed alpha of your pack. You may control up to three Guard Hounds at a time.</p>
 		</description>
 		<sheet>
-			<description>You may control up to three Guard Hounds at a time. Each hound can be set to Steel Fang or Bulwark mode independently.</description>
+			<description>You may control up to three Guard Hounds at a time.</description>
 		</sheet>
 	</element>
 	
