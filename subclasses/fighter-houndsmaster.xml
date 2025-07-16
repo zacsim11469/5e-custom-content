@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Houndsmaster</name>
+		<source>zacsim11469's Mind</source>
+		<update version="0.1.0">
+			<file name="fighter-houndsmaster.xml" url="REQUIRES LINK" />
+		</update>
+	</info>
+
+	<element name="Houndsmaster" type="Archetype" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FIGHTER_HOUNDSMASTER">
+		<supports>Martial Archetype</supports>
+		<description>
+			<p>For the Houndsmaster, battle is not fought alone—it is a duet of discipline and instinct, steel and fang. These specialized warriors form an unbreakable bond with their trained hounds, fighting side by side with unmatched coordination and trust. Whether serving in elite city guard units, ranging ahead of scouting parties, or patrolling the wild frontiers, Houndsmasters are known for their vigilance, loyalty, and tactical cunning.</p>
+			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_LOYAL_PARTNER" />
+			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_INSTINCTIVE_BOND" />
+			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_GUARDIANS_WRATH" />
+			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_BY_FANG_AND_FAITH" />
+			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_COMBAT_COORDINATION" />
+			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_PACKMASTER" />
+		</description>
+		<sheet display="false">
+			<description>For the Houndsmaster, battle is not fought alone—it is a duet of discipline and instinct.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_LOYAL_PARTNER" level="3" />
+			<grant type="Archetype Feature" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_INSTINCTIVE_BOND" level="3" />
+			<grant type="Archetype Feature" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_GUARDIANS_WRATH" level="7" />
+			<grant type="Archetype Feature" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_BY_FANG_AND_FAITH" level="10" />
+			<grant type="Archetype Feature" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_COMBAT_COORDINATION" level="15" />
+			<grant type="Archetype Feature" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_PACKMASTER" level="18" />
+		</rules>
+	</element>
+	<element name="Loyal Partner" type="Archetype Feature" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_LOYAL_PARTNER">
+		<description>
+			<p>At 3rd level, you gain the companionship of a trained Guard Hound. Your hound:</p>
+			<p class="indent">Shares your alignment</p>
+			<p class="indent">Is immune to charm effects from creatures other than you</p>
+			<p class="indent">IS able to obey simple commands (attack, guard, retrieve, pull, etc.)</p>
+			<p class="indent">The powers below use your Spectral Energy Dice.</p>
+			<p class="indent">In combat, the hound shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the hound can take any action of its choice, not just Dodge.</p>
+			<p class="indent">In the event that your hound is lost, a new hound may be obtained with 1 week of downtime and an expense of 25gp. This might be from a specialized city guard kennel, a ritualistic bonding with a wolf in nature, or another method determined appropriate for your character. The time and gold are for the specialized training and bond you'll need to establish with your hound.</p>
+			<div class="reference">
+				<div element="ID_5ECC_INFORMATION_GUARD_HOUND" />
+			</div>
+		</description>
+		<sheet>
+			<description>You gain a Guard Hound companion. The hound shares your alignment, is immune to charm from anyone but you, and obeys simple commands (attack, guard, retrieve, pull, etc.)&#13;
+			It takes it turn after yours, and will only Dodge unless you spend a bonus action to direct it. If you are incapacitated, the hound can take any action of it's choice.&#13;
+			Replacing a hound costs 25GP and 1 week of downtime, in which you train and bond with the hound.&#13;
+			</description>
+		</sheet>
+		<rules>
+			<select type="Companion" name="Guard Hound" supports="Guard Hound" default="ID_5ECC_COMPANION_HOUNDSMASTER_GUARD_HOUND" requirements="!ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_LOYAL_PARTNER"/>
+		</rules>
+	</element>
+	<element name="Instinctive Bond" type="Archetype Feature" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_INSTINCTIVE_BOND">
+		<description>
+			<p>Also starting at 3rd level, when you use Second Wind, your hound also regains hit points equal to the amount you heal. </p>
+			<p>You have advantage on Animal Handling checks to interact with hounds, wolves, and dogs. Additionally, you have advantage on Medicine checks made to treat your hound.</p>
+			<p>When you take the Attack action, you can choose to have any number of your attacks made by your hound instead of you. These attacks originate from the hound’s space and use its attack rolls, modifiers, and abilities.</p>
+		</description>
+		<sheet>
+			<description>Using Second Wind heals your hound for the same amount.&#13; You have advantage on Animal Handling to interact with hounds and similar creatures.&#13; You have advantage on Medicine checks to treat your hound.&#13; If you would make an attack, you may have your hound make the attack instead using it's stats.</description>
+		</sheet>
+	</element>
+	<element name="Guardian's Wrath" type="Archetype Feature" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_GUARDIANS_WRATH">
+		<description>
+			<p>Starting at 7th level, when a creature you can see within 30 feet is reduced to 0 hit points by a hostile creature, you can enter a state of focused wrath. This state lasts for a number of rounds equal to your proficiency bonus. While it lasts:</p>
+			<p class="indent">You treat the triggering creature as if affected by the Hunter’s Mark spell (no concentration required).</p>
+			<p class="indent">You have advantage on attack rolls against the triggering creature.</p>
+			<p>You can enter this state once per combat. You regain the ability to do so when you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When a creature you can see within 30 feet is reduced to 0 hit points by a hostile creature, for {{proficency}} rounds:&#13;
+				You treat the triggering creature as if affected by the Hunter’s Mark spell (no concentration required).&#13;
+				You have advantage on attack rolls against the triggering creature.</description>
+		</sheet>
+	</element>
+	<element name="By Fang and Faith" type="Archetype Feature" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_BY_FANG_AND_FAITH">
+		<description>
+			<p>Your bond with your hound transcends wounds and battle.</p>
+			<p>Starting at 10th level, if you have 0 hit points, your hound may use its action to make a Wisdom (Medicine) check to stabilize you.</p>
+			<p>If your hound has died within the last minute, you may make a DC 15 Wisdom (Medicine) check as an action while adjacent to it. On a success, the hound returns to life with 0 hit points and is stabilized. Once you attempt this check, you must finish a long rest before doing so again.</p>
+		</description>
+		<sheet usage="1/Long Rest" action="Action">
+			<description>If your hound has died within the last minute, you may make a DC 15 Medicine check while adjacant. On a success, the hound returns to life at 0 hit points and is stabilized.&#13; Additionally, if you are at 0 hit points, your hound may attempt to stabilize you with a Medicine check (no limit on usage).</description>
+		</sheet>
+	</element>
+	<element name="Combat Coordination" type="Archetype Feature" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_COMBAT_COORDINATION">
+		<description>
+			<p>At 15th level, when both you and your Guard Hound are within 5 feet of the same hostile creature:</p>
+			<p class="indent">You both have advantage on attack rolls against that creature.</p>
+			<p class="indent">You both gain a +2 bonus to AC against attacks made by that creature.</p>
+			<p class="indent">If both you and your hound hit that creature with an attack on the same turn, the creature has disadvantage on all saving throws against abilities from you and your hound until the start of your next turn.</p>
+		</description>
+		<sheet>
+			<description>When you and your hound are within 5 feet of the same creature: &#13; You both get +2AC against that creature and advantage to hit that creature&#13; If you both hit that creature in the same turn, it has disadvantage on it's saves againt you and your hound's abilities</description>
+		</sheet>
+	</element>
+	<element name="Packmaster" type="Archetype Feature" source="zacsim11469's Mind" id="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_PACKMASTER">
+		<description>
+			<p>At 18th level, you are the undisputed alpha of your pack. You may control up to three Guard Hounds at a time. Each hound can be set to Steel Fang or Bulwark mode independently.</p>
+		</description>
+		<sheet>
+			<description>You may control up to three Guard Hounds at a time. Each hound can be set to Steel Fang or Bulwark mode independently.</description>
+		</sheet>
+	</element>
+	
+	<element name="Guard Hound" type="Companion" source="zacsim11469's Mind" id="ID_5ECC_COMPANION_HOUNDSMASTER_GUARD_HOUND">
+		<supports>Guard Hound</supports>
+		<requirements>!ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_LOYAL_PARTNER</requirements>
+		<setters>
+			<set name="size">Medium</set>
+			<set name="type">Beast</set>
+			<set name="alignment">Unaligned</set>
+			<set name="ac">12</set>
+			<set name="hp">5 + five times your fighter level</set>
+			<set name="speed">40 ft.</set>
+			<set name="strength">13</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">12</set>
+			<set name="intelligence">3</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">7</set>
+			<set name="senses">darkvision 60 ft., passive Perception 15</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">0</set>
+			<!--<set name="traits">ID_5ECC_COMPANION_TRAIT_DRAKEWARDEN_DRACONIC_ESSENCE</set>
+			<set name="actions">ID_5ECC_COMPANION_ACTION_DRAKEWARDEN_BITE</set>
+			<set name="reactions">ID_5ECC_COMPANION_REACTION_DRAKEWARDEN_INFUSED_STRIKES</set>-->
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="12" bonus="base" />
+			<stat name="companion:hp:max" value="5" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:proficiency" value="proficiency" bonus="proficiency"/>
+		</rules>
+	</element>
+	
+	<element name="Guard Hound" type="Information" source="zacsim11469's Mind" id="ID_5ECC_INFORMATION_GUARD_HOUND">
+		<description>
+			<p style="margin-bottom:-5px"><em>Medium beast, shares your alignment</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 5 + five times your Fighter level</li>
+				<li><strong>Speed</strong> 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>13 (+1)</td><td>14 (+2)</td><td>12 (+1)</td><td>3 (-4)</td><td>12 (+1)</td><td>7 (-2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +5</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 15</li>
+				<li><strong>Languages</strong> — </li>
+				<li><strong>Challenge</strong> — <strong>Proficiency Bonus</strong> equals your bonus.</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li>Your hound is outfitted with specially crafted battlegear, trained and conditioned for one of two roles. During a short or long rest, you may change or remove its current battlegear.&#13;
+				Whether obtained from a city guard armory, crafted by your tribe, or an invention created by you, these are considered standard-issue gear. At your DM’s discretion, you may improve or modify this equipment through crafting, quest rewards, or magical enhancements. Such upgrades should preserve the discipline’s core function and not exceed the power of existing features at your level.</li>
+				<li><strong><em>Steel Fangs.</em></strong> The Guard Hound's Bite damage increases to 1d10 + your proficiency bonus. If the target is prone or grappled, the Bite deals an extra 1d4 piercing damage. On a successful hit, the Guard Hound's Bite attack may restrain the target instead of knocking it prone.</li>
+				<li><strong><em>Bulwark Armor.</em></strong> The Guard Hound's AC becomes 15. It gains resistance to your choice of bludgeoning, piercing, or slashing damage when selecting this battlegear. The Guard Hound may use its action to impose disadvantage on attacks targeting any ally within 5 feet of it.&#13;</li>
+				<li><strong><em>Keen Hearing and Smell.</em></strong> The Guard Hound has advantage on Wisdom (Perception) checkes that rely on hearing or smell. </li>
+				<li><strong><em>Natural Tracker.</em></strong> Your hound can track scent trails a number of days old equal to your proficiency bonus.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><em><strong>Bite.</strong> Melee Weapon Attack:</em> Your Wisdom modifier plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 plus PB piercing damage. The target must succeed on a Strength saving throw (DC = 8 + PB + your Wisdom modifier) or be knocked prone.</li>
+			</ul>
+		</description>
+	</element>
+</elements>
