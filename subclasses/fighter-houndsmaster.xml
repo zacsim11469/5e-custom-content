@@ -134,11 +134,11 @@
 		<rules>
 			<stat name="companion:ac" value="12" bonus="base" />
 			<stat name="companion:hp:max" value="5" />
-			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:fighter" />
+			<stat name="companion:hp:max" value="level:fighter" />
+			<stat name="companion:hp:max" value="level:fighter" />
+			<stat name="companion:hp:max" value="level:fighter" />
+			<stat name="companion:hp:max" value="level:fighter" />
 			<stat name="companion:speed" value="40" bonus="base" />	
 			<stat name="companion:proficiency" value="proficiency" bonus="proficiency"/>
 		</rules>
