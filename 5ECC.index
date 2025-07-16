@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>5ECC</name>
+		<description>This is a compilation of custom content for Dungeons and Dragons 5th Edition that I've created. Updates are irregular at best. Enjoy!</description>
+		<author url="https://github.com/zacsim11469/5e-custom-content">github</author>
+		<update version="0.1.0">
+			<file name="5ECC.index" url="UPDATE URL" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/zacsim11469/5e-custom-content/refs/heads/main/source.xml" />
+
+		<!-- Races -->
+
+		<!-- Subclasses -->
+		<file name="fighter-houndsmaster.xml" url="https://raw.githubusercontent.com/zacsim11469/5e-custom-content/refs/heads/main/subclasses/fighter-houndsmaster.xml" />
+	</files>
+</index>
