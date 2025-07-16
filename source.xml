@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.1.0">
-			<file name="source.xml" url="NEEDS CHANGE" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/zacsim11469/5e-custom-content/refs/heads/main/source.xml" />
 		</update>
 	</info>	
 	<element name="5ECC by zacsim11469" type="Source" source="Core" id="ID_5ECC">
