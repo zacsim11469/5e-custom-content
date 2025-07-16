@@ -5,7 +5,7 @@
 		<description>This is a compilation of custom content for Dungeons and Dragons 5th Edition that I've created. Updates are irregular at best. Enjoy!</description>
 		<author url="https://github.com/zacsim11469/5e-custom-content">github</author>
 		<update version="0.1.0">
-			<file name="5ECC.index" url="UPDATE URL" />
+			<file name="5ECC.index" url="https://raw.githubusercontent.com/zacsim11469/5e-custom-content/refs/heads/main/5ECC.index" />
 		</update>
 	</info>
 	<files>
