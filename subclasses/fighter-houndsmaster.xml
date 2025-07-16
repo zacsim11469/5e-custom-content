@@ -13,6 +13,9 @@
 		<description>
 			<p>For the Houndsmaster, battle is not fought alone—it is a duet of discipline and instinct, steel and fang. These specialized warriors form an unbreakable bond with their trained hounds, fighting side by side with unmatched coordination and trust. Whether serving in elite city guard units, ranging ahead of scouting parties, or patrolling the wild frontiers, Houndsmasters are known for their vigilance, loyalty, and tactical cunning.</p>
 			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_LOYAL_PARTNER" />
+			<div class="reference">
+				<div element="ID_5ECC_INFORMATION_GUARD_HOUND" />
+			</div>
 			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_INSTINCTIVE_BOND" />
 			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_GUARDIANS_WRATH" />
 			<div element="ID_5ECC_ARCHETYPE_FEATURE_HOUNDSMASTER_BY_FANG_AND_FAITH" />
