@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1.0">
+			<file name="source.xml" url="NEEDS CHANGE" />
+		</update>
+	</info>	
+	<element name="5ECC by zacsim11469" type="Source" source="Core" id="ID_5ECC">
+		<description>			
+			<p>This is a compilation of custom content for Dungeons and Dragons 5th Edition that I've created. Updates are irregular at best. Enjoy!</p>
+		</description>
+		<setters>
+			<set name="abbreviation">5ECC</set>
+			<set name="url">https://github.com/zacsim11469/5e-custom-content</set>
+			<set name="image">https://raw.githubusercontent.com/zacsim11469/5e-custom-content/refs/heads/main/wizard.PNG</set>
+			<set name="author" abbreviation="zacsim11469" url="https://github.com/zacsim11469/5e-custom-content">github</set>
+			<set name="third-party">true</set>
+		</setters>
+	</element>
+</elements>
