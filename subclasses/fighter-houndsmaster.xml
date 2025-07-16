@@ -4,7 +4,7 @@
 		<name>Houndsmaster</name>
 		<source>zacsim11469's Mind</source>
 		<update version="0.1.0">
-			<file name="fighter-houndsmaster.xml" url="REQUIRES LINK" />
+			<file name="fighter-houndsmaster.xml" url="https://raw.githubusercontent.com/zacsim11469/5e-custom-content/refs/heads/main/subclasses/fighter-houndsmaster.xml" />
 		</update>
 	</info>
 
